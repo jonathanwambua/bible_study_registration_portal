@@ -1,0 +1,27 @@
+/* @media(min-width: 768px){
+    .login_div {
+        width:45%
+    }
+} */
+
+.v.olunteer_form {
+    margin:auto;
+}
+
+
+
+.f.orm_container {
+    height:100%;
+}
+
+/* .body_container {
+    height:100vh;
+} */
+
+.grey-color {
+    background-color: #e6e6e6;
+}
+
+.lighter-grey {
+    background-color: #f2f2f2;
+}
