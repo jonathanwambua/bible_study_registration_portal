@@ -3,14 +3,14 @@
     $page_heading = "Bible Study Registration";
     // include the configs for db
     require_once("../config/db.php");
-    include "header_login.php";
+    
     require_once("../classes/Registrationbs.php");
 
     // load the login class
     require_once("../classes/Login.php");
 
     $login = new Login();
-
+    include "header_login.php";
     // Is user already logged in?
     if ($login->isUserLoggedIn() == true) {
         
