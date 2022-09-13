@@ -191,7 +191,7 @@ if (isset($registration)) {
           <div class="form-check">
             <input class="form-check-input" type="checkbox" value="9" name="ministry[]"  id="theatre">
             <label class="form-check-label" for="theatre">
-                Creative Ministry
+                Creative  Ministry
             </label>
           </div>
           <div class="form-check">

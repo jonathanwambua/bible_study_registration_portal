@@ -231,7 +231,12 @@ if (isset($registration)) {
                 Treasury Ministry
             </label>
           </div>
-   
+  <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="16" name="ministry[]"  id="publicity">
+            <label class="form-check-label" for="publicity">
+                Publicity Ministry
+            </label>
+          </div>
       </div>
 
       <div class="form-group dropdown">
