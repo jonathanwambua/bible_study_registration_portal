@@ -94,12 +94,32 @@ if (isset($registration)) {
         <label for="course">Course</label>
         <p class="text-secondary">Select your course of study</p>
 
-        <select class="form-control form-select" id="course" name="course">
+        <!--<select class="form-control form-select" id="course" name="course">
           <option value="1">Math</option>
           <option value="2">Cs</option>
           <option value="3">ACS</option>
           <option value="4">Bio</option>
           <option value="5">Bed Arts</option>
+        </select>-->
+        <select name="course">
+            <?php
+                // use a while loop to fetch data
+                // from the $all_courses variable
+                // and individually display as an option
+                while ($course = mysqli_fetch_array(
+                        $all_courses,MYSQLI_ASSOC)):;
+            ?>
+                <option value="<?php echo $course["id"];
+                    // The value we usually set is the primary key
+                ?>">
+                    <?php echo $course["Course_Name"];
+                        // To show the course name to the user
+                    ?>
+                </option>
+            <?php
+                endwhile;
+                // While loop must be terminated
+            ?>
         </select>
       </div>
      
@@ -191,7 +211,7 @@ if (isset($registration)) {
           <div class="form-check">
             <input class="form-check-input" type="checkbox" value="9" name="ministry[]"  id="theatre">
             <label class="form-check-label" for="theatre">
-                Theatre Ministry
+                Creative Ministry
             </label>
           </div>
           <div class="form-check">
