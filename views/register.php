@@ -104,8 +104,23 @@ if (isset($registration)) {
       <option value="7">Certificate in Animal Health and Production</option>
       <option value ="8">Bachelor of Laws</option>
       <option value="9">Bachelor of Science Electronics and Electrical Engeneering</option>
-
-        </select>-->
+      <option value ="10">Bachelor of Tourism and Hotel Management</option>
+      <option value="11">Bachelor of Science Environmental Science</option>
+      <option value ="12">Bachelor Science in Natural Resource Management</option>
+      <option value="13">Bachelor of Science General</option>
+   <option value ="14">Bachelor of Agriculture</option>
+      <option value="15">Bachelor of Science in Worldlife Enterprice and Management</option>
+      <option value ="16">Bachelor of Agriculture (Animal Science)(Agriculture)</option>
+      <option value="17">Bachelor of science(biochemistry)(biology)</option>
+    <option value ="18">Bachelor of Arts criminology(all arts subjects)</option>
+    <option value="19">Bachelor of Science Nursing Sciences</option>
+    <option value="20">Bachelor of Science Nursing</option>
+    <option value="21">bachelor of Science Food Science and Technology</option>
+    <option value="22">Bachelor of Science Psychology</option>
+    <option value="23">Bachelor of Science Acturial Science</option>
+    <option value="24">Bachelor of Science in Environmental Sciences</option>
+    <option value="25">Bachelor of arts linguistics literature and Sociology</option>
+    </select>
       
       </div>
      
